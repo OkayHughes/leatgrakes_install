@@ -1,4 +1,5 @@
-mkdir -p install \
+mkdir -p /install/lmod \
+	&& cd /install/lmod \
 	&& wget -N --no-check-certificate https://sourceforge.net/projects/lmod/files/lua-5.1.4.9.tar.bz2 \
 	&& tar -xf lua-5.1.4.9.tar.bz2 \
 	&& cd lua-5.1.4.9 \
