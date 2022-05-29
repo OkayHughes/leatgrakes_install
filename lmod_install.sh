@@ -8,7 +8,7 @@ mkdir -p /install/lmod \
 	&& make -j10 install \
 	&& ln -sf /opt/apps/lua/5.1.4 /opt/apps/lua/lua \
 	&& mkdir -p /usr/local/bin \
-	&& ln -sf /opt/apps/lua/bin/lua /usr/local/bin
+	&& ln -sf /opt/apps/lua/lua/bin/lua /usr/local/bin
 
 sudo yum  install -y lua-5.1.4-15.el7.x86_64 \
 	lua-bitop-1.0.2-3.el7.x86_64 \
